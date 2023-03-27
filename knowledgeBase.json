@@ -246,6 +246,41 @@
         "Eliminar las plantas infectadas",
         "Mantener el lugar donde se encuentran las plantas limpio"
       ]
+    },
+    {
+      "nombre": "Enfermedad del pie negro",
+      "sintomas": [
+        "Manchas oscuras en la base del tallo",
+        "Marchitez y amarillamiento de las hojas"
+      ],
+      "tratamientos": [
+        "Eliminar las plantas afectadas, rotar cultivos, tratar con fungicidas."
+      ]
+    },
+    {
+      "nombre": "Moho gris",
+      "sintomas": [
+        "Manchas grises en las hojas y frutas",
+        "Pudrición de la fruta",
+        "Defoliación"
+      ],
+      "tratamientos": [
+        "Eliminar las hojas y frutas afectadas, tratar con fungicidas."
+      ]
+    },
+    {
+      "nombre": "Mancha angular",
+      "sintomas": ["Manchas negras en las hojas", "Defoliación"],
+      "tratamientos": ["Eliminar las hojas afectadas, tratar con fungicidas."]
+    },
+    {
+      "nombre": "Escoba de bruja",
+      "sintomas": [
+        "Formación de brotes anormales",
+        "Defoliación",
+        "Pérdida de vigor"
+      ],
+      "tratamientos": ["Eliminar las plantas afectadas, tratar con fungicidas."]
     }
   ]
 }

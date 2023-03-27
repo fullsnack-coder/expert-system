@@ -42,14 +42,50 @@ engine.addOperator(
     const parsedValue = factValue.toLowerCase();
     const parsedJSONValue = jsonValue.map((value) => value.toLowerCase());
 
-    return parsedJSONValue.includes(parsedValue);
+    return parsedJSONValue.some((knowedSyntom) =>
+      knowedSyntom.includes(parsedValue)
+    );
   }
 );
+
+type EngineEvent<R = any> = {
+  type: string;
+  params?: R;
+};
+
+type Result = {
+  name: string;
+  tratamientos: string[];
+};
 
 listOfRules.forEach((rule) => {
   engine.addRule(rule);
 });
 
-engine.run({ sintoma: "blancas" }).then(({ events }: any) => {
-  console.log(events);
-});
+async function initializeEngine() {
+  const { events: matches } = (await engine.run({
+    sintoma: "manchas blancas",
+  })) as { events: EngineEvent<Result>[] };
+
+  if (matches.length <= 0) return [];
+
+  const result = {
+    diagnostic: {
+      matches: matches.map(({ type: eventType, params }) => {
+        return {
+          eventType,
+          name: params?.name,
+          tratamientos: params?.tratamientos,
+        };
+      }),
+    },
+  };
+
+  return result;
+}
+
+initializeEngine().then((result) =>
+  console.log(JSON.stringify(result, null, 2))
+);
+
+// TODO: Agregar un servidor para recibir los sintomas y devolver el resultado
