@@ -1,0 +1,251 @@
+{
+  "enfermedades": [
+    {
+      "nombre": "Antracnosis",
+      "sintomas": [
+        "Manchas marrones en las hojas",
+        "Manchas marrones o negras en los frutos",
+        "Pudrición en los frutos"
+      ],
+      "tratamientos": [
+        "Fungicidas",
+        "Remover hojas y frutos infectados",
+        "Regar las plantas en horas del día que no estén tan calurosas"
+      ]
+    },
+    {
+      "nombre": "Bacteriosis",
+      "sintomas": [
+        "Manchas negras y circulares en las hojas",
+        "Manchas en las hojas que se extienden hasta los tallos",
+        "Pudrición del tallo"
+      ],
+      "tratamientos": [
+        "Fungicidas",
+        "Remover hojas y tallos infectados",
+        "Regar las plantas en horas del día que no estén tan calurosas"
+      ]
+    },
+    {
+      "nombre": "Botritis",
+      "sintomas": [
+        "Manchas marrones en las hojas",
+        "Podredumbre de los frutos",
+        "Aparición de una capa blanca y polvorienta sobre las hojas y frutos"
+      ],
+      "tratamientos": [
+        "Fungicidas",
+        "Podar las partes afectadas",
+        "Regar las plantas en horas del día que no estén tan calurosas"
+      ]
+    },
+    {
+      "nombre": "Cancro",
+      "sintomas": [
+        "Heridas en la corteza del árbol",
+        "Pus saliendo de las heridas",
+        "Muerte del árbol"
+      ],
+      "tratamientos": [
+        "Remover las áreas afectadas",
+        "Lavar la herida con agua y jabón",
+        "Aplicar una pasta fungicida en la herida"
+      ]
+    },
+    {
+      "nombre": "Chancro",
+      "sintomas": [
+        "Manchas marrones en la corteza del árbol",
+        "Agrietamiento de la corteza",
+        "Pus saliendo de las grietas"
+      ],
+      "tratamientos": [
+        "Remover las áreas afectadas",
+        "Lavar la herida con agua y jabón",
+        "Aplicar una pasta fungicida en la herida"
+      ]
+    },
+    {
+      "nombre": "Enrollamiento de las hojas",
+      "sintomas": [
+        "Las hojas se enrollan hacia adentro",
+        "Las hojas adquieren una textura más gruesa",
+        "Las hojas se vuelven amarillas"
+      ],
+      "tratamientos": [
+        "Aplicar un insecticida",
+        "Regar las plantas regularmente",
+        "Mejorar la ventilación en el lugar donde se encuentran las plantas"
+      ]
+    },
+    {
+      "nombre": "Fusarium",
+      "sintomas": [
+        "Marchitez",
+        "Muerte de la planta",
+        "Raíces descoloridas y descompuestas"
+      ],
+      "tratamientos": [
+        "Remover las plantas infectadas",
+        "Mejorar la ventilación en el lugar donde se encuentran las plantas",
+        "Aplicar fungicidas"
+      ]
+    },
+    {
+      "nombre": "Helmintosporiosis",
+      "sintomas": [
+        "Manchas negras en las hojas",
+        "Manchas que se extienden hasta los tallos",
+        "Pudrición del tallo"
+      ],
+      "tratamientos": [
+        "Remover hojas y tallos infectados",
+        "Mejorar la ventilación en el lugar donde se encuentran las plantas",
+        "Aplicar fungicidas"
+      ]
+    },
+    {
+      "nombre": "Moho polvoriento",
+      "sintomas": [
+        "Crecimiento de una capa blanca y polvorienta en las hojas y tallos",
+        "Decoloración de las hojas",
+        "Retorcimiento de las hojas"
+      ],
+      "tratamientos": [
+        "Aplicar fungicidas",
+        "Mejorar la ventilación en el lugar donde se encuentran las plantas",
+        "Regar las plantas en horas del día que no estén tan calurosas"
+      ]
+    },
+    {
+      "nombre": "Mildiu",
+      "sintomas": [
+        "Manchas amarillas en las hojas",
+        "Manchas marrones en los frutos",
+        "Pudrición de los frutos"
+      ],
+      "tratamientos": [
+        "Aplicar fungicidas",
+        "Remover hojas y frutos infectados",
+        "Regar las plantas en horas del día que no estén tan calurosas"
+      ]
+    },
+    {
+      "nombre": "Moho azul",
+      "sintomas": [
+        "Crecimiento de una capa blanca y polvorienta en las hojas y tallos",
+        "Decoloración de las hojas",
+        "Retorcimiento de las hojas"
+      ],
+      "tratamientos": [
+        "Aplicar fungicidas",
+        "Mejorar la ventilación en el lugar donde se encuentran las plantas",
+        "Regar las plantas en horas del día que no estén tan calurosas"
+      ]
+    },
+    {
+      "nombre": "Necrosis",
+      "sintomas": [
+        "Manchas marrones o negras en las hojas",
+        "Pudrición de los tallos",
+        "Pudrición de las raíces"
+      ],
+      "tratamientos": [
+        "Remover las partes infectadas",
+        "Aplicar un fungicida",
+        "Regar las plantas en horas del día que no estén tan calurosas"
+      ]
+    },
+    {
+      "nombre": "Oídio",
+      "sintomas": [
+        "Crecimiento de una capa blanca y polvorienta en las hojas y tallos",
+        "Decoloración de las hojas",
+        "Retorcimiento de las hojas"
+      ],
+      "tratamientos": [
+        "Aplicar fungicidas",
+        "Mejorar la ventilación en el lugar donde se encuentran las plantas",
+        "Regar las plantas en horas del día que no estén tan calurosas"
+      ]
+    },
+    {
+      "nombre": "Podredumbre",
+      "sintomas": [
+        "Pudrición en los frutos",
+        "Pudrición de los tallos",
+        "Manchas marrones en las hojas"
+      ],
+      "tratamientos": [
+        "Remover las partes infectadas",
+        "Mejorar la ventilación en el lugar donde se encuentran las plantas",
+        "Aplicar un fungicida"
+      ]
+    },
+    {
+      "nombre": "Roya",
+      "sintomas": [
+        "Manchas amarillas en las hojas",
+        "Manchas anaranjadas en las hojas",
+        "Decoloración de las hojas"
+      ],
+      "tratamientos": [
+        "Remover las hojas infectadas",
+        "Mejorar la ventilación en el lugar donde se encuentran las plantas",
+        "Aplicar un fungicida"
+      ]
+    },
+    {
+      "nombre": "Septoriosis",
+      "sintomas": [
+        "Manchas circulares en las hojas",
+        "Manchas marrones en los frutos",
+        "Pudrición de los frutos"
+      ],
+      "tratamientos": [
+        "Remover las partes infectadas",
+        "Mejorar la ventilación en el lugar donde se encuentran las plantas",
+        "Aplicar un fungicida"
+      ]
+    },
+    {
+      "nombre": "Verticilosis",
+      "sintomas": [
+        "Amarillamiento de las hojas",
+        "Marchitamiento de las hojas",
+        "Pudrición de las raíces"
+      ],
+      "tratamientos": [
+        "Remover las partes infectadas",
+        "Mejorar la ventilación en el lugar donde se encuentran las plantas",
+        "Aplicar un fungicida"
+      ]
+    },
+    {
+      "nombre": "Mosca blanca",
+      "sintomas": [
+        "Manchas blancas en las hojas",
+        "Disminución del crecimiento de la planta",
+        "Daño en las hojas"
+      ],
+      "tratamientos": [
+        "Usar insecticidas específicos para controlar las moscas blancas",
+        "Eliminar las plantas infectadas",
+        "Mantener el lugar donde se encuentran las plantas limpio"
+      ]
+    },
+    {
+      "nombre": "Trips",
+      "sintomas": [
+        "Manchas plateadas en las hojas",
+        "Disminución del crecimiento de la planta",
+        "Daño en las hojas"
+      ],
+      "tratamientos": [
+        "Usar insecticidas específicos para controlar los trips",
+        "Eliminar las plantas infectadas",
+        "Mantener el lugar donde se encuentran las plantas limpio"
+      ]
+    }
+  ]
+}
