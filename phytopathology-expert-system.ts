@@ -64,7 +64,7 @@ listOfRules.forEach((rule) => {
 
 async function initializeEngine() {
   const { events: matches } = (await engine.run({
-    sintoma: "manchas blancas",
+    sintoma: "manchas",
   })) as { events: EngineEvent<Result>[] };
 
   if (matches.length <= 0) return [];

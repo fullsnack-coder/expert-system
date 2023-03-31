@@ -1,0 +1,17 @@
+BASE DE CONOCIMIENTO
+    - conocimiento de revistas cientificas
+MOTOR DE INFERENCIA
+    - reglas
+    - resultado
+
+INTERFAZ
+    - entradas del usuario
+    - salidas de informacion
+
+
+PAGINAS WEB != CODIGO DE servidor
+PHP COMPLETO
+
+
+CSS UI !== CODIGO DE servidor 
+
