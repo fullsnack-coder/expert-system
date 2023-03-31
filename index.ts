@@ -48,6 +48,6 @@ app.post(
   }
 );
 
-app.listen(3333, () => {
-  console.log("Server started on port 3333!");
+app.listen(8080, () => {
+  console.log("Server started on port 8080");
 });
