@@ -62,7 +62,9 @@ listOfRules.forEach((rule) => {
   engine.addRule(rule);
 });
 
-async function initializeEngine() {
+export default engine;
+
+export async function initializeEngine() {
   const { events: matches } = (await engine.run({
     sintoma: "manchas",
   })) as { events: EngineEvent<Result>[] };
@@ -83,9 +85,3 @@ async function initializeEngine() {
 
   return result;
 }
-
-initializeEngine().then((result) =>
-  console.log(JSON.stringify(result, null, 2))
-);
-
-// TODO: Agregar un servidor para recibir los sintomas y devolver el resultado
