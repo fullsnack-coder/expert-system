@@ -34,6 +34,7 @@ app.post(
           return {
             eventType,
             name: params?.name,
+            sintomas: params?.sintomas,
             tratamientos: params?.tratamientos,
           };
         }),

@@ -25,6 +25,7 @@ const listOfRules = (enfermedades as Enfermedad[]).map(
         params: {
           name: nombre,
           tratamientos,
+          sintomas,
         },
       },
     };
